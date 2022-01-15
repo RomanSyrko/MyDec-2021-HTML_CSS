@@ -1,0 +1,31 @@
+body{
+    width: 520px;
+}
+
+.widgests{
+    width: 500px;
+    height: 200px;
+    background-color: #3172bc;
+    margin: 10px;
+
+}
+
+.wrap{
+    display: flex;
+    align-items: stretch;
+
+}
+
+.bigwidgets{
+    width: 153px;
+    height: 200px;
+    background-color: #244f7f;
+    margin: 10px;
+}
+
+.contact{
+    width: 500px;
+    height: 400px;
+    background-color: #3172bc;
+    margin: 10px;
+}

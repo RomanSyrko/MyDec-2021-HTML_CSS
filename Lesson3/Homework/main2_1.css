@@ -15,7 +15,6 @@
 }
 
 .wrap{
-    flex-direction: row;
     display: flex;
     align-items: center;
 }
@@ -28,10 +27,6 @@
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.column {
-    flex-direction: column
 }
 
 .post{
@@ -48,13 +43,4 @@
     height: 45px;
     border: 1px solid black;
     background-color: #fefdcf;
-}
-
-
-
-div>.header, .menu, .post, .footer {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 }
