@@ -1,0 +1,38 @@
+.wrap1, .wrap2{
+    display: flex;
+}
+
+.home, .about{
+    width: 241px;
+    height: 400px;
+    font-size: xx-large;
+}
+
+.kabobs{
+    width: 496px;
+    height: 230px;
+    font-size: xx-large;
+
+}
+
+.shishkabobs, .bbqkabobs, .summerkabobs{
+    width: 156px;
+    height: 220px;
+    background-color: #244f7f;
+}
+
+.home, .about, .kabobs, .shishkabobs, .bbqkabobs, .summerkabobs{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bc{
+    background-color: #3172bc;
+}
+
+.mr7{
+    margin: 7px;
+}

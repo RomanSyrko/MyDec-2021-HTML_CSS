@@ -1,0 +1,28 @@
+.wrap{
+    display: flex;
+}
+
+.bigwidgets{
+    width: 153px;
+    background-color: #244f7f;
+}
+
+.contact{
+    height: 400px;
+}
+
+.w500{
+    width: 500px;
+}
+
+.h200{
+    height: 200px;
+}
+
+.bc{
+    background-color: #3172bc;
+}
+
+.mr10{
+    margin: 10px;
+}

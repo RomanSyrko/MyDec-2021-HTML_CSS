@@ -1,0 +1,46 @@
+.general{
+    width: 252px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+
+.header{
+    width: 250px;
+    height: 45px;
+    background-color: #e8f6b6;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    width: 70px;
+    height: 180px;
+    background-color: #fdbcfd;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post{
+    width: 170px;
+    height: 84px;
+    background-color: #a6e4fd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    width: 250px;
+    height: 45px;
+    background-color: #fefdcf;
+}
+
+.br{
+    border: 1px solid black;
+}
