@@ -1,0 +1,115 @@
+.top{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.middle{
+    display: flex;
+}
+
+.a4567{
+    display: flex;
+    flex-direction: column;
+}
+.a45, .a67{
+    display: flex;
+}
+
+.a2{
+    width: 230px;
+}
+
+.a1, .a8, .a9{
+    width: 60px;
+    height: 40px;
+}
+
+.a3{
+    width: 60px;
+    height: 199px;
+}
+
+.a4{
+    width: 164px;
+    height: 80px;
+}
+.a6{
+    width: 164px;
+    height: 203px;
+}
+.a5{
+    width: 60px;
+    height: 80px;
+}
+.a7{
+    width: 60px;
+    height: 203px;
+}
+.a10{
+    width: 296px;
+    height: 60px;
+}
+.b89{
+    display: none;
+}
+.bg {
+    background-color: #626262;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.a9, .a89{
+    margin-top: 5px;
+}
+@media screen and (max-width: 323px){
+    .middle, .a10{
+        width: 126px;
+        display: flex;
+        flex-direction: column;
+    }
+    .a1{
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+    }
+    .a2{
+        width: 85px;
+        height: 40px;
+        margin-left: 0;
+        border-left: 1px solid gray;
+    }
+    .a3{
+        width: 126px;
+        height: 40px;
+    }
+    .a4{
+        width: 130px;
+    }
+    .b8, .b9{
+        width: 60px;
+        height: 45px;
+    }
+    .a6{
+        width: 126px;
+        height: 220px;
+    }
+    .a7{
+        width: 126px;
+        height: 100px;
+    }
+    .a45, .b89{
+        width: 132px;
+        display: flex;
+    }
+    .a67{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .a89{
+        display: none;
+    }
+}
