@@ -74,7 +74,9 @@ header{
     margin-bottom: 32px;
 }
 .box1_btns2{
+    width: 350px;
     display: flex;
+    justify-content: space-between;
 }
 .box1_btn1, .box1_btn2, .box4_btn{
     width: 163px;
@@ -87,7 +89,6 @@ header{
 .box1_btn1, .box4_btn{
     background-color: #f8c52d;
     border: 1px solid #f8c52d;
-    margin-right: 16px;
 }
 
 .box1_btn2{
@@ -162,7 +163,7 @@ header{
     position: absolute;
     top: 4055px;
     left: 146px;
-    height: 200px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
